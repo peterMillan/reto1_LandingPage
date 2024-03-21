@@ -6,11 +6,7 @@
     min-width: 90px;
     height: auto;
     border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 20px;
-    background-color: aliceblue;
-    color: rgb(176, 130, 222);
-    aspect-ratio: 1;
+    background-color: whitesmoke
 }
 
 
@@ -35,6 +31,21 @@
 
 .register:hover .title::after {
     transform: scaleX(1);
+    cursor: pointer;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.register:hover p {
+    transition: 1s ease-in-out;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.register {
+    background-color: aliceblue;
 }
 
 .head {
@@ -71,7 +82,7 @@
 
 .register:hover {
     transition: 3s ease;
-    background-color: #b2b7b9;
+    background-color: #4f8fe3;
 }
 
 
@@ -81,8 +92,21 @@
     border: 2px double rgb(13, 13, 13);
 }
 
+.contacto {
+    background-color: #ffffff;
+}
+
+.card {
+    opacity: .900;
+}
+
 .card:hover {
-    opacity: .800;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.card:hover .card-title {
+    color: rgb(28, 28, 28);
 }
 
 
@@ -111,6 +135,10 @@
 
 .card4 {
     background-color: #5C9C85;
+}
+
+.oferta {
+    background-color: #ffffff
 }
 
 
