@@ -101,17 +101,13 @@ footer {
     background-color: #ffffff;
 }
 
-.card {
-    opacity: .800;
-}
-
 .card:hover {
-    opacity: 1;
+    opacity: .800;
     transform: scale(1.2);
 }
 
 .card:hover .card-title {
-    color: rgb(0, 0, 0);
+    color: #1E1E1E;
 }
 
 
