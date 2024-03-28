@@ -102,7 +102,7 @@ footer {
 }
 
 .card {
-    opacity: .900;
+    opacity: .800;
 }
 
 .card:hover {
@@ -111,7 +111,7 @@ footer {
 }
 
 .card:hover .card-title {
-    color: rgb(28, 28, 28);
+    color: rgb(0, 0, 0);
 }
 
 
